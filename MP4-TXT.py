@@ -76,7 +76,7 @@ for arquivo in os.listdir(pasta_atual):
 # -------------Transcrição de áudio e geração de resumo
 for arquivo in os.listdir(pasta_atual):
     if arquivo.endswith(".mp3") and "video_0" in arquivo:
-        openai.api_key = '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'
+        openai.api_key = 'INSIRA SUA KEY'
 
         # Utilize o gerenciamento de contexto para abrir o arquivo de áudio
         with open(arquivo, 'rb') as audio_file:
